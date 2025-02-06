@@ -25,8 +25,8 @@
 .about .wrapper .text p{
     font-family: 'Josefin Sans', sans-serif;
     padding: 10px;
-    font-size: 1.2rem;
-    line-height: 25px;
+    font-size: 1.3rem;
+    line-height: 45px;
 }
 .about .wrapper .text p::first-letter{
     margin-left: 20px;
