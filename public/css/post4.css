@@ -1,0 +1,80 @@
+.post4 {
+    padding: 0px 20px;
+}
+.post4 .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+
+}
+.post4 .wrapper:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+.post4 .wrapper .text{
+    flex: 1;
+    padding: 5px;
+}
+.post4 .wrapper .text h1{
+    font-family: 'Dancing Script', cursive;
+}
+.post4 .wrapper .text p{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+.post4 .wrapper .text p::first-letter{
+    margin-left: 20px;
+}
+
+
+
+.post4 .wrapper .photo{
+    flex: 1;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.post4 .wrapper .photo img{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.post4 .wrapper .photo img:hover{
+    transform: scale(1.2);
+}
+
+/* Scroll Animasyonu */
+
+.post4 .wrapper{
+    opacity: 0;
+    transition: all 0.8s;
+}
+.post4 .wrapper.active{
+    opacity: 1;
+}
+.post4 .wrapper .text{
+    transform: translateX(-20px);
+    transition: all 0.8s;
+}
+.post4 .wrapper:nth-child(2n) .text{
+    transform: translateX(20px);
+}
+.post4 .wrapper.active .text{
+    transform: translateX(0px);
+}
+
+.post4 .wrapper .photo{
+    transform: translateX(20px);
+    transition: all 0.8s;
+}
+.post4 .wrapper:nth-child(2n) .photo{
+    transform: translateX(-20px);
+}
+.post4 .wrapper.active .photo{
+    transform: translateX(0px);
+}
