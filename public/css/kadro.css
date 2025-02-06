@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.kadro-cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.kadro-cont .üye{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kadro-cont .üye img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+/* Scroll Animasyonu */
+
+.kadro-cont{
+    opacity: 0;
+    transition: all 0.8s;
+}
+.kadro-cont.active{
+    opacity: 1;
+}
