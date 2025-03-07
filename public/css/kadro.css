@@ -6,12 +6,14 @@ body{
 .kadro-cont{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 20px;
     justify-content: center;
     align-items: center;
     padding: 40px;
 }
-.kadro-cont .üye{
+.kadro-cont .kaptan{
+    grid-column-start: 2;
     padding: 0;
     border: none;
     display: flex;
@@ -19,14 +21,219 @@ body{
     align-items: center;
     overflow: hidden;
 }
-.kadro-cont .üye img{
+.kadro-cont .üye_1{
+    grid-row-start: 2;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .üye_2{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .üye_3{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .üye_4{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .üye_5{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .üye_6{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .üye_7{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .üye_8{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .üye_9{
+    grid-row-start: 4;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.kadro-cont .kaptan img{
     width: 130px;
     height: 130px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #2c3e50;
 }
-.kadro-cont .üye p{
+.kadro-cont .üye_1 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_2 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_3 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_4 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_5 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_6 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_7 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_8 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_9 img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+}
+.kadro-cont .üye_1 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .üye_2 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .üye_3 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .üye_4 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .üye_5 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .üye_6 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .üye_7 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .üye_8 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .üye_9 p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.kadro-cont .kaptan p{
     margin-top: 10px;
     font-size: 16px;
     color: #333;
